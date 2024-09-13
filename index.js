@@ -13,8 +13,8 @@ const songs = [
     { title: "Highschool", artist: "Nicki Minaj", genre: "Rap" },
     { title: "How you remind me", artist: "Nickelback", genre: "Rock" },
     { title: "Hey Mama", artist: "David Guetta", genre: "EDM" },
-    { title: "O-O-H Child", artist: "The Five Stairsteps", genre: "R&B" },
-    { title: "Crash", artist: "Kelani", genre: "R&B" },
+    { title: "O-O-H Child", artist: "The Five Stairsteps", genre: "RnB" },
+    { title: "Crash", artist: "Kelani", genre: "RnB" },
     { title: "Come and Get Your Love", artist: "Redbone", genre: "Rock" },
     { title: "Kill Bill", artist: "SZA", genre: "Pop" },
     { title: "Sex on fire", artist: "Kings of Leon", genre: "Rock" },
@@ -25,9 +25,9 @@ const songs = [
 const guardians = {
     "Star-Lord": "Rock",
     "Gamora": "Pop",
-    "Drax": "R&B",
-    "Rocket": "Rap",
-    "Groot": "EDM",
+    "Drax": "Rap",
+    "Rocket": "EDM",
+    "Groot": "RnB",
     // Add preferences for Drax, Rocket, and Groot
 };
 // Function to generate playlist based on preferred genre
